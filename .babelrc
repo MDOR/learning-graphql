@@ -1,0 +1,10 @@
+{
+  "presets": [["env", {
+                "targets": {
+                  "browsers": ["> 3%", "iOS >= 8"],
+                  "node": "current"
+                }
+              }
+            ]],
+  "plugins": ["transform-object-rest-spread"]
+}
